@@ -146,7 +146,6 @@ def get_default_config():
         "vault_enabled": False,
         # Windows settings
         "windows_kms_host": None,
-        "auto_vlan_creation": True,
     }
 
 
