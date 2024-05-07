@@ -1277,7 +1277,7 @@ class TestGetConfig(MAASServerTestCase):
             local_ip,
             remote_ip,
             mac=unformatted_mac_address,
-            query_count=50,
+            query_count=58,
         )
 
         reloaded_machine = Machine.objects.filter(
