@@ -228,7 +228,7 @@ def interface_vlan_update(instance, old_values, **kwargs):
 
     new_vlan = instance.vlan
     node = instance.node_config.node
-    if node.is_controller:
+    if not node.is_commissioning():
         if old_vlan_id is None:
             return
         # Interface VLAN was changed on a controller. Move all linked subnets
