@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 import uuid
 
 from pylxd import Client
+from pylxd.client import get_session_for_url
 from pylxd.exceptions import ClientConnectionFailed, LXDAPIException, NotFound
 import urllib3
 
@@ -850,11 +851,15 @@ class LXDPodDriver(PodDriver):
             raise Error("No certificates available")
 
         def client_with_certs(cert):
+            session = get_session_for_url(endpoint, cert=cert, verify=False)
+            # Don't inherit proxy environment variables
+            session.trust_env = False
             client = self._pylxd_client_class(
                 endpoint=endpoint,
                 project=project,
                 cert=cert,
                 verify=False,
+                session=session,
             )
             if not client.trusted and password:
                 try:

@@ -12,6 +12,7 @@ from unittest.mock import ANY, MagicMock, Mock, PropertyMock, sentinel
 
 from fixtures import EnvironmentVariable, TempDir
 from pylxd.exceptions import ClientConnectionFailed, LXDAPIException, NotFound
+from requests import Session
 from testtools.testcase import ExpectedException
 from twisted.internet.defer import inlineCallbacks
 
@@ -126,6 +127,7 @@ class FakeClient:
     project: str
     cert: Optional[Tuple[str, str]]
     verify: bool
+    session: Session
 
     _PROXIES = (
         "host_info",
@@ -142,6 +144,7 @@ class FakeClient:
         self.trusted = False
         self._fail_auth = False
         self.host_info = self.fake_lxd.host_info
+        self.api = FakeAPINode(self.session)
 
     def authenticate(self, password):
         if self._fail_auth:
@@ -153,6 +156,13 @@ class FakeClient:
         if name in self._PROXIES:
             return getattr(self.fake_lxd, name)
         raise AttributeError(name)
+
+
+@dataclasses.dataclass
+class FakeAPINode:
+    """A fake pylxd.client._APINode"""
+
+    session: Session
 
 
 class FakeLXD:
@@ -192,8 +202,16 @@ class FakeLXD:
         project="default",
         cert=None,
         verify=False,
+        session=None,
     ):
-        client = FakeClient(self, endpoint, project, cert, verify)
+        client = FakeClient(
+            fake_lxd=self,
+            endpoint=endpoint,
+            project=project,
+            cert=cert,
+            verify=verify,
+            session=session,
+        )
 
         if self._client_behaviors is not None:
             try:
@@ -255,10 +273,13 @@ class FakeLXDCluster:
         project="default",
         cert=None,
         verify=False,
+        session=None,
     ):
         if self.client_idx == len(self.clients):
             self.client_idx = 0
-        client = self.clients[self.client_idx](endpoint, project, cert, verify)
+        client = self.clients[self.client_idx](
+            endpoint, project, cert, verify, session
+        )
         client._PROXIES += ("cluster", "cluster/members")
         self.client_idx += 1
         return client
@@ -462,6 +483,11 @@ class TestLXDPodDriver(MAASTestCase):
             self.assertEqual(client.project, context["project"])
             self.assertIsInstance(client.cert, tuple)
             self.assertFalse(client.verify)
+
+    def test_get_client_should_not_trust_environment(self):
+        context = self.make_context()
+        with self.driver._get_client(None, context) as client:
+            self.assertFalse(client.api.session.trust_env)
 
     def test_get_client_no_certificates_no_password(self):
         context = self.make_context(with_cert=False, with_password=False)
