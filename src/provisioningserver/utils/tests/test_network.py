@@ -24,7 +24,7 @@ from testtools.matchers import (
     StartsWith,
 )
 from twisted.internet.defer import inlineCallbacks, succeed
-from twisted.names.dns import Record_AAAA
+from twisted.names.dns import AAAA, Record_AAAA, RRHeader
 from twisted.names.error import (
     AuthoritativeDomainError,
     DNSQueryTimeoutError,
@@ -2569,7 +2569,11 @@ class TestSafeGetaddrinfo(MAASTestCase):
         mock_resolver = Mock()
         mock_resolver.lookupIPV6Address = lambda _: succeed(
             (
-                [Record_AAAA(address="::")],
+                [
+                    RRHeader(
+                        name="::", type=AAAA, payload=Record_AAAA(address="::")
+                    )
+                ],
                 [],
                 [],
             )
@@ -2586,7 +2590,13 @@ class TestSafeGetaddrinfo(MAASTestCase):
         mock_resolver = Mock()
         mock_resolver.lookupIPV6Address = lambda _: succeed(
             (
-                [Record_AAAA(address="::1")],
+                [
+                    RRHeader(
+                        name="example.com",
+                        type=AAAA,
+                        payload=Record_AAAA(address="::1"),
+                    )
+                ],
                 [],
                 [],
             )
