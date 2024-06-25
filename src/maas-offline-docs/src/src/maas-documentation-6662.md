@@ -56,8 +56,8 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 1     | how-to-guides                           | [How-to guides](/t/-/6663)                                                          |
 | 2     |                                         | Learn the basics                                                                    |
 | 3     | how-to-install-maas                     | [Install MAAS](/t/-/5128)                                                           |
-| 3     | how-to-upgrade-postgresql-v12-to-v14    | [Upgrade PostgreSQL v12 to v14](/t/how-to-upgrade-postgresql-v12-to-v14/7203)       |
-| 3     | how-to-connect-maas-networks            | [Connect MAAS networks](/t/-/5164)                                                  |
+| 3     | how-to-upgrade-postgresql-v12-to-v14    | [Upgrade PostgreSQL](/t/how-to-upgrade-postgresql-v12-to-v14/7203)       |
+| 3     | how-to-connect-maas-networks            | [Connect networks](/t/-/5164)                                                  |
 | 3     | how-to-enable-dhcp                      | [Enable DHCP](/t/-/5132)                                                            |
 | 3     | how-to-use-standard-images              | [Use standard images](/t/-/5124)                                                    |
 | 3     | how-to-configure-controllers            | [Configure controllers](/t/-/5172)                                                  |
@@ -67,7 +67,7 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-deploy-machines-with-maas        | [Deploy machines](/t/-/5112)                                                        |
 | 3     | how-to-locate-machines                  | [Locate machines](/t/how-to-locate-machines/5192)                                   |
 | 3     | how-to-monitor-maas                     | [Monitor MAAS](/t/how-to-monitor-maas/5204)                                         |
-| 3     | how-to-troubleshoot-common-issues       | [Troubleshoot common issues](/t/how-to-troubleshoot-common-issues/5333)             |
+| 3     | how-to-troubleshoot-common-issues       | [Troubleshoot issues](/t/how-to-troubleshoot-common-issues/5333)             |
 | 2     |                                         | Fine-tune your instance                                                             |
 | 3     | how-to-manage-ip-ranges                 | [Manage IP ranges](/t/-/5136)                                                       |
 | 3     | how-to-mirror-maas-images               | [Mirror MAAS images](/t/-/5927)                                                     |
@@ -75,8 +75,8 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-use-availability-zones           | [Use availability zones](/t/-/5152)                                                 |
 | 3     | how-to-customise-machines               | [Customise machines](/t/-/5108)                                                     |
 | 3     | how-to-manage-storage                   | [Manage storage](/t/-/7846)                                                         |
+| 3     | how-to-configure-storage-layouts        | [Configure storage](/t/how-to-configure-storage-layouts/5973)               |
 | 3     | how-to-create-custom-storage            | [Create custom storage](/t/-/7896)                                                  |
-| 3     | how-to-configure-storage-layouts        | [Configure storage layouts](/t/how-to-configure-storage-layouts/5973)               |
 | 3     | how-to-manage-block-devices             | [Manage block devices](/t/-/7893)                                                   |
 | 3     | how-to-manage-partitions                | [Manage partitions](/t/-/7894)                                                      |
 | 3     | how-to-manage-vmfs-datastores           | [Manage VMFS datastores](/t/-/7895)                                                 |
@@ -86,23 +86,23 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-enhance-maas-security            | [Enhance MAAS security](/t/how-to-enhance-maas-security/5196)                       |
 | 3     | how-to-manage-user-access               | [Manage user access](/t/how-to-manage-user-access/5184)                             |
 | 3     | how-to-change-maas-settings             | [Change MAAS settings](/t/how-to-change-maas-settings/8035)                         |
-| 3     | how-to-change-maas-3-4-settings         | [Change MAAS 3.4 settings](/t/how-to-change-maas-3-4-settings/6347)                 |
-| 3     | how-to-change-maas-3-3-settings         | [Change MAAS 3.3 settings](/t/how-to-change-maas-3-3-settings/7880)                 |
-| 3     | how-to-change-settings-with-the-cli     | [Change settings with the CLI](/t/how-to-change-settings-with-the-cli/7881)         |
+| 3     | how-to-change-maas-3-4-settings         | [Change v3.4 settings](/t/how-to-change-maas-3-4-settings/6347)                 |
+| 3     | how-to-change-maas-3-3-settings         | [Change v3.3 settings](/t/how-to-change-maas-3-3-settings/7880)                 |
+| 3     | how-to-change-settings-with-the-cli     | [Change settings via CLI](/t/how-to-change-settings-with-the-cli/7881)         |
 | 2     |                                         | Customise MAAS                                                                      |
 | 3     | how-to-customise-images                 | [Customise images](/t/-/5104)                                                       |
 | 3     | how-to-build-maas-images                | [Build MAAS images](/t/-/7872)                                                      |
-| 3     | how-to-build-an-ubuntu-image            | [Build an Ubuntu image](/t/-/7873)                                                  |
-| 3     | how-to-build-a-rhel-7-image             | [Build a RHEL 7 image](/t/-/7874)                                                   |
-| 3     | how-to-build-a-rhel-8-image             | [Build a RHEL 8 image](/t/-/7875)                                                   |
-| 3     | how-to-build-a-centos-7-image           | [Build a CentOS 7 image](/t/-/7876)                                                 |
-| 3     | how-to-build-an-oracle-linux-8-image    | [Build an Oracle Linux 8 image](/t/-/8078)                                          |
-| 3     | how-to-build-an-oracle-linux-9-image    | [Build an Oracle Linux 9 image](/t/-/8079)                                          |
-| 3     | how-to-build-an-esxi-image              | [Build an ESXi image](/t/-/7877)                                                    |
-| 3     | how-to-build-a-windows-image            | [Build a Windows image](/t/-/7878)                                                  |
+| 3     | how-to-build-an-ubuntu-image            | [Build Ubuntu](/t/-/7873)                                                  |
+| 3     | how-to-build-a-rhel-7-image             | [Build RHEL 7](/t/-/7874)                                                   |
+| 3     | how-to-build-a-rhel-8-image             | [Build RHEL 8](/t/-/7875)                                                   |
+| 3     | how-to-build-a-centos-7-image           | [Build CentOS 7](/t/-/7876)                                                 |
+| 3     | how-to-build-an-oracle-linux-8-image    | [Build Oracle Linux 8](/t/-/8078)                                          |
+| 3     | how-to-build-an-oracle-linux-9-image    | [Build Oracle Linux 9](/t/-/8079)                                          |
+| 3     | how-to-build-an-esxi-image              | [Build ESXi](/t/-/7877)                                                    |
+| 3     | how-to-build-a-windows-image            | [Build Windows](/t/-/7878)                                                  |
 | 3     | how-to-deploy-a-real-time-kernel        | [Deploy a real-time kernel](/t/-/6658)                                              |
 | 3     | how-to-use-vmware-images                | [Use VMWare images](/t/-/5144)                                                      |
-| 3     | how-to-deploy-a-fips-compliant-kernel   | [Deploy a FIPS-compliant kernel](/t/-/7743)                                         |
+| 3     | how-to-deploy-a-fips-compliant-kernel   | [Deploy a FIPS kernel](/t/-/7743)                                         |
 | 3     | how-to-use-machine-tags                 | [Use machine tags](/t/how-to-use-machine-tags/5224)                                 |
 | 3     | how-to-use-controller-tags              | [Use controller tags](/t/how-to-use-controller-tags/5216)                           |
 | 3     | how-to-use-storage-tags                 | [Use storage tags](/t/how-to-use-storage-tags/5232)                                 |
@@ -115,15 +115,15 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-use-lxd-projects                 | [Use LXD projects](/t/how-to-use-lxd-projects/7871)                                 |
 | 3     | how-to-manage-virtual-machines          | [Manage virtual machines](/t/how-to-manage-virtual-machines/5148)                   |
 | 2     |                                         | Automate with scripting                                                             |
-| 3     | how-to-authenticate-to-the-maas-api     | [Authenticate to the MAAS API](/t/how-to-authenticate-to-the-maas-api/5060)         |
+| 3     | how-to-authenticate-to-the-maas-api     | [Login to the MAAS API](/t/how-to-authenticate-to-the-maas-api/5060)         |
 | 3     | how-to-use-the-python-api-client        | [Use the Python API client](/t/how-to-use-the-python-api-client/5404)               |
-| 2     |                                         | Connect non-standard setups                                                         |
+| 2     |                                         | Rig custom setups                                                         |
 | 3     | how-to-set-up-power-drivers             | [Set up power drivers](/t/-/5246)                                                   |
 | 3     | how-to-deploy-vms-on-ibm-z              | [Deploy VMs on IBM Z](/t/how-to-deploy-vms-on-ibm-z/7885)                           |
-| 3     | how-to-configure-an-air-gapped-maas     | [Configure an air-gapped MAAS](/t/how-to-configure-an-air-gapped-maas/5212)         |
+| 3     | how-to-configure-an-air-gapped-maas     | [Set up air-gapped MAAS](/t/how-to-configure-an-air-gapped-maas/5212)         |
 | 2     |                                         | Maintain MAAS                                                                       |
 | 3     | how-to-back-up-maas                     | [Back up MAAS](/t/-/5096)                                                           |
-| 2     | how-to-use-logging                      | [Use logging](/t/how-to-use-logging/6956)                                           |
+| 3     | how-to-use-logging                      | [Use logging](/t/how-to-use-logging/6956)                                           |
 | 3     | how-to-read-event-logs                  | [Read event logs](/t/how-to-read-event-logs/5252)                                   |
 | 3     | how-to-review-audit-logs                | [Review audit logs](/t/how-to-review-audit-logs/5256)                               |
 | 3     | how-to-read-commissioning-logs          | [Read commissioning logs](/t/how-to-read-commissioning-logs/5248)                   |
@@ -131,12 +131,12 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-use-maas-systemd-logs            | [Use MAAS systemd logs](/t/how-to-use-maas-systemd-logs/8103)                       |
 | 3     | how-to-audit-maas                       | [Audit MAAS](/t/how-to-audit-maas/5987)                                             |
 | 3     | how-to-upgrade-maas                     | [Upgrade MAAS](/t/-/5436)                                                           |
-| 2     | how-to-join-the-community               | [Join the community](/t/how-to-join-the-community/5428)                             |
-| 3     | how-to-engage-on-the-discourse-forum    | [Engage on the Discourse forum](/t/how-to-engage-on-the-discourse-forum/6802)       |
+| 2     | how-to-join-the-community               | Join the community
+| 3     | how-to-engage-on-the-discourse-forum    | [Engage on the forum](/t/how-to-engage-on-the-discourse-forum/6802)       |
 | 3     | how-to-seek-maas-support                | [Seek MAAS support](https://ubuntu.com/pro)                                         |
 | 3     | how-to-request-features                 | [Request features](/t/how-to-request-features/4447)                                 |
 | 3     | how-to-report-and-review-bugs           | [Report and review bugs](/t/how-to-report-and-review-bugs/4446)                     |
-| 3     | how-to-contribute-to-maas-documentation | [Contribute to MAAS documentation](/t/how-to-contribute-to-maas-documentation/6949) |
+| 3     | how-to-contribute-to-maas-documentation | [Contribute to doc](/t/how-to-contribute-to-maas-documentation/6949) |
 | 3     | how-to-contact-us                       | [How to contact us](/t/how-to-contact-us/5448)                                      |
 | 0     |                                         |                                                                                     |
 | 1     | reference                               | [Reference](/t/-/6143)                                                              |
