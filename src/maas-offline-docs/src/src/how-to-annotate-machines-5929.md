@@ -29,6 +29,8 @@ To add or modify notes via the MAAS UI:
 
 ## Notes via CLI
 
+Notes using the MAAS CLI are handled a little differently from the UI.
+
 #### Identifying your machines
 
 To determine machine identifiers, run the following command:
