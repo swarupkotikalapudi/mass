@@ -74,7 +74,6 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-use-availability-zones           | [Use availability zones](/t/-/5152)                                            |
 | 3     | how-to-customise-machines               | [Customise machines](/t/-/5108)                                                |
 | 3     | how-to-manage-storage                   | [Manage storage](/t/-/7846)                                                    |
-| 3     | how-to-create-custom-storage            | [Create custom storage](/t/-/7896)                                             |
 | 3     | how-to-use-resource-pools               | [Use resource pools](/t/-/7845)                                                |
 | 3     | how-to-manage-tags                      | [Manage tags](/t/how-to-manage-tags/5928)                                      |
 | 3     | how-to-annotate-machines                | [Annotate machines](/t/how-to-annotate-machines/5929)                          |
@@ -194,6 +193,7 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 |       | how-to-change-maas-3-3-settings         | [Change v3.3 settings](/t/how-to-change-maas-3-3-settings/7880)                |
 |       | how-to-change-settings-with-the-cli     | [Change settings via CLI](/t/how-to-change-settings-with-the-cli/7881)         |
 |       | how-to-configure-storage-layouts        | [Configure storage](/t/how-to-configure-storage-layouts/5973)                  |
+|       | how-to-create-custom-storage            | [Create custom storage](/t/-/7896)                                             |
 [/details]
 
 ## Redirects
