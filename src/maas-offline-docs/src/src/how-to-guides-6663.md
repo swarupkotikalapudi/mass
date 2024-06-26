@@ -1,6 +1,6 @@
 > *Errors or typos? Topics missing? Hard to read? <a href="https://docs.google.com/forms/d/e/1FAIpQLScIt3ffetkaKW3gDv6FDk7CfUTNYP_HGmqQotSTtj2htKkVBw/viewform?usp=pp_url&entry.1739714854=https://maas.io/docs/how-to-guides" target = "_blank">Let us know.</a>*
 
-This section describes how to use MAAS:
+This section provides MAAS instruction in an increasing order of complexity:
 
 - [Set up and configure MAAS](/t/how-to-set-up-maas/6202)
 - [Manage MAAS networks](/t/how-to-manage-maas-networks/6742)
