@@ -56,7 +56,6 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 1     | how-to-guides                           | [How-to guides](/t/-/6663)                                                          |
 | 2     |                                         | Learn the basics                                                                    |
 | 3     | how-to-install-maas                     | [Install MAAS](/t/-/5128)                                                           |
-| 3     | how-to-upgrade-postgresql-v12-to-v14    | [Upgrade PostgreSQL](/t/how-to-upgrade-postgresql-v12-to-v14/7203)       |
 | 3     | how-to-connect-maas-networks            | [Connect networks](/t/-/5164)                                                  |
 | 3     | how-to-enable-dhcp                      | [Enable DHCP](/t/-/5132)                                                            |
 | 3     | how-to-use-standard-images              | [Use standard images](/t/-/5124)                                                    |
