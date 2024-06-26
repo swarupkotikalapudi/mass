@@ -21,7 +21,7 @@ MAAS is a member of the Ubuntu family. It’s an open source project that warmly
 - [Read our code of conduct](https://ubuntu.com/community/code-of-conduct)**^**
 - [Get support](https://ubuntu.com/pro)**^**
 - [Learn about MAAS performance](/t/about-maas-performance/6178)
-- [Join our online chat](/t/how-to-engage-on-the-discourse-forum/6802)
+- [Join our forum](/t/how-to-engage-on-the-discourse-forum/6802)
 - [Contribute code](https://launchpad.net/maas)**^**
 - [Improve our documentation](/t/how-to-contribute-to-maas-documentation/6949)
 - [Request a feature](/t/how-to-request-features/4447)
