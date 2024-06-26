@@ -82,9 +82,6 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | 3     | how-to-enhance-maas-security            | [Enhance MAAS security](/t/how-to-enhance-maas-security/5196)                  |
 | 3     | how-to-manage-user-access               | [Manage user access](/t/how-to-manage-user-access/5184)                        |
 | 3     | how-to-change-maas-settings             | [Change MAAS settings](/t/how-to-change-maas-settings/8035)                    |
-| 3     | how-to-change-maas-3-4-settings         | [Change v3.4 settings](/t/how-to-change-maas-3-4-settings/6347)                |
-| 3     | how-to-change-maas-3-3-settings         | [Change v3.3 settings](/t/how-to-change-maas-3-3-settings/7880)                |
-| 3     | how-to-change-settings-with-the-cli     | [Change settings via CLI](/t/how-to-change-settings-with-the-cli/7881)         |
 | 2     |                                         | Customise MAAS                                                                 |
 | 3     | how-to-customise-images                 | [Customise images](/t/-/5104)                                                  |
 | 3     | how-to-build-maas-images                | [Build MAAS images](/t/-/7872)                                                 |
@@ -194,6 +191,9 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 |       | how-to-manage-block-devices             | [Manage block devices](/t/-/7893)                                              |
 |       | how-to-manage-partitions                | [Manage partitions](/t/-/7894)                                                 |
 |       | how-to-manage-vmfs-datastores           | [Manage VMFS datastores](/t/-/7895)                                            |
+|       | how-to-change-maas-3-4-settings         | [Change v3.4 settings](/t/how-to-change-maas-3-4-settings/6347)                |
+|       | how-to-change-maas-3-3-settings         | [Change v3.3 settings](/t/how-to-change-maas-3-3-settings/7880)                |
+|       | how-to-change-settings-with-the-cli     | [Change settings via CLI](/t/how-to-change-settings-with-the-cli/7881)         |
 [/details]
 
 ## Redirects
