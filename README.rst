@@ -5,6 +5,7 @@ Metal as a Service -- MAAS -- lets you treat physical servers like virtual machi
 Rather than having to manage each server individually, MAAS turns your bare metal into an elastic
 cloud-like resource.
 
+
 What does that mean in practice? Tell MAAS about the machines you want it to manage and it will
 boot them, check the hardware's okay, and have them waiting for when you need them. You can then
 pull nodes up, tear them down and redeploy them at will; just as you can with virtual
