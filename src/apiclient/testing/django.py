@@ -10,7 +10,6 @@ from django.core.files.uploadhandler import MemoryFileUploadHandler
 from django.http import multipartparser
 from fixtures import TestWithFixtures
 
-
 class APIClientTestCase(TestWithFixtures):
     """
     Provide django and django-piston based content/header parsing methods.
