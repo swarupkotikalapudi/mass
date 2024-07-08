@@ -14,7 +14,6 @@ transport between processes.
 
 __all__ = ["convert_string_to_tuple", "convert_tuple_to_string"]
 
-
 def convert_tuple_to_string(creds_tuple):
     """Represent a MAAS API credentials tuple as a colon-separated string."""
     if len(creds_tuple) != 3:
